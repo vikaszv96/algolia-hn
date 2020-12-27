@@ -1,0 +1,170 @@
+.center{
+  position: absolute;
+ left:40%;
+}
+.text-xm{
+  font-size:12px;
+
+}
+
+.fixed-top{
+  position: fixed;
+  top: 0;
+   left:8%;
+right:8%;
+
+
+
+}
+.pl-sm{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.content{
+
+  margin-left: 8%;
+  margin-right: 8%;
+}
+@media only screen and (max-width: 600px) {
+/*.data{
+  background-color: #F5F7EE;
+  margin-top: 24%;
+}*/
+.fixed-top{
+  position: fixed;
+ left:0;
+ right: 0;
+ }
+.content{
+
+  margin-left: 0;
+  margin-right: 0;
+}
+.box{
+  padding-bottom:  8px;
+  background-color: white;
+  padding-top: 15px;
+  padding-right: 5px;
+}
+}
+.ml-sm{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.ml-lg{
+margin-left: 4%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.box{
+  padding-bottom:  1%;
+  background-color: white;
+  padding-top: 1.5%;
+  padding-right: 1%;
+}
+.padding{
+  padding: 20px 10px 10px 10px;
+}
+.text-white{
+  color: black;
+}
+.input-width{
+  width: 60%;
+}
+.bg-orange{
+background-color: #FF6700;
+
+}
+.input-search{
+  outline: none;
+box-shadow:none !important;
+border:1px  #000 !important;
+}
+.text-xl{
+  font-size: 30px;
+  padding: 1px 10px 1px 1px;
+}
+.text-logo{
+  padding: 1px 10px 10px 1px;
+}
+
+.mt-lg{
+  margin-top: 10px;
+}
+.ml-xl{
+  margin-left: 100px;
+}
+.data{
+  background-color: #F5F7EE;
+  margin-top: 12%;
+}
+.bg-white{
+  background-color: #f6f6ef;
+  padding-top: 8px;
+}
+.footer{
+    background-color: #F5F7EE;
+}
+.heading {
+  font-size:14px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+hr{
+  margin-top: 0;
+  margin-bottom:5px;
+}
+a{
+  color: inherit;
+  cursor: pointer;
+}
+a:hover{
+color: inherit;
+text-decoration: none;
+}
+
+select {
+  padding: 1px 1px 1px 1px;
+    width: 150px;
+    border: 2px solid #cccccc;
+    background-color: #f6f6ef;
+}
+
+.filter {
+  padding: 1px 1px 1px 1px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
